@@ -8,7 +8,6 @@ import Footer from "@/components/Footer";
 import Demo from "@/components/DemoScroll";
 import { OurServices } from "@/components/FeatureSection2";
 import { KeyFeatures } from "@/components/FeaturesSection";
-import { Spotlight } from "@/components/ui/spotlight";
 
 export default function Home() {
   return (
