@@ -1,0 +1,29 @@
+"use client";
+
+import React from "react";
+import Navbar from "@/components/Navbar";
+import TestimonialsSection from "@/components/TestimonialsSection";
+import ContactSection from "@/components/ContactSection";
+import Footer from "@/components/Footer";
+import Demo from "@/components/DemoScroll";
+import { OurServices } from "@/components/FeatureSection2";
+import { KeyFeatures } from "@/components/FeaturesSection";
+import { Spotlight } from "@/components/ui/spotlight";
+
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-[#0c0c0c] text-white relative">
+      <Spotlight
+        className="-top-40 left-0 md:-top-20 z-99 md:left-60"
+        fill="white"
+      />
+      <Navbar />
+      <Demo />
+      <OurServices />
+      <KeyFeatures />
+      <TestimonialsSection />
+      <ContactSection />
+      <Footer />
+    </main>
+  );
+}
