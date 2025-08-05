@@ -12,11 +12,7 @@ import { Spotlight } from "@/components/ui/spotlight";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#0c0c0c] text-white relative">
-      <Spotlight
-        className="-top-40 left-0 md:-top-20 z-99 md:left-60"
-        fill="white"
-      />
+    <main className="min-h-screen bg-[#0c0c0c] text-white">
       <Navbar />
       <Demo />
       <OurServices />
